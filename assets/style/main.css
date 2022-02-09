@@ -1,0 +1,18 @@
+.Inscription {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5rem;
+    /* border: 5px, solid, greenyellow; */
+    justify-content: flex-end;
+    
+}
+
+.Formulaire {
+   /* background-color: aquamarine; */
+   display:flex;
+   flex-direction: row;
+   margin-top: 10%;
+   margin-right: 25%;
+}
+
