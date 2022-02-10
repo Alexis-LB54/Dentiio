@@ -74,10 +74,10 @@
      &nbsp;
      <div class="container">
          <div class="row">
-             <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/Dent vise.png" title="dent coeur" alt="image dent coeur"></div>
+             <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent10.jpg" title="dent coeur" alt="image dent coeur"></div>
              <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent8.png" title="dent coeur" alt="image dent coeur"></div>
              <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent5.png" title="dent coeur" alt="image dent coeur"></div>
-             <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent10.png" title="dent coeur" alt="image dent coeur"></div>
+             <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent10.jpg" title="dent coeur" alt="image dent coeur"></div>
              <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent9.png" title="dent coeur" alt="image dent coeur"></div>
              <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent7.png" title="dent coeur" alt="image dent coeur"></div>
              <div class="col" href="insérer l'URL de destination ici"><img id="img1" src="/assets/images/dent6.png" title="dent coeur" alt="image dent coeur"></div>
