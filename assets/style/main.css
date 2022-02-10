@@ -1,18 +1,83 @@
-.Inscription {
+.Accueil {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 5rem;
-    /* border: 5px, solid, greenyellow; */
-    justify-content: flex-end;
-    
+    /* gap: 5rem; */
+    justify-content: flex-end;    
+    align-items: center;
 }
 
 .Formulaire {
-   /* background-color: aquamarine; */
+   background-color:white;
+   box-shadow: 0px 2px 15px 0px #000000;
    display:flex;
    flex-direction: row;
+   justify-content: center;   
+   align-items: center;
    margin-top: 10%;
    margin-right: 25%;
+   padding: 20px;
+   border-radius: 30px 30px 30px 30px;
+   width: 30%;
+}
+
+body{
+    text-align: center;
+}
+
+.mybouton {
+    background-color:transparent;
+    border-radius:28px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#4352f2;
+    font-family:Arial;
+    font-size:19px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b8bccc;
+    
+}
+
+label{
+    display:flex;
+    text-align: left;
+    margin: 5px;
+}
+
+input{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px grey solid;
+    /* width: 250px; */
+
+}
+
+.boxlabel{
+    text-align: center;
+}
+
+.input{
+   width: 100%;
+}
+
+.bouttonbleu {
+    box-shadow: 2px 3px 0px 0px #9fb4f2;
+    background-color:#00e1ff;
+    border-radius:12px;
+    border:4px solid #00e1ff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    padding:5px 80px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #f5f5f5;
+    margin : 15px;
+}
+
+h1{
+    margin: 10px;
 }
 
