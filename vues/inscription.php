@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <?php include './vues/templates/head.php' ?>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-
-    <link rel="stylesheet" href="./assets/style/main.css" />
-
-
-</head>
-
-<body>
-    <style>
-        body {
-            background-repeat: no-repeat;
-            background-image: url(assets/images/illus.png);
-        }
-    </style>
-
-    <div class="Accueil">
-        <div class="Formulaire" id="inscription">
+<div class="Formulaire" id="inscription">
             <form method="POST">
                 
                 <h1>Inscription</h1>
@@ -73,64 +50,8 @@
 
                 <div>
                     Déjà un compte?
-                    <input class="mybouton" type="submit" value="Connectez-vous !" />
+                    <input class="mybouton" type="submit" value="Connectez-vous !"  onclick="run('connection')" />
                 </div>
 
             </form>
         </div>
-    </div>
-
-
-
-
-    <div class="Accueil">
-        <!-- <div class="Formulaire" id="connexion">
-            <form method="POST">
-                
-                <h1>Connexion</h1>
-                
-                <div >
-                    <label for="email"> Email :</label>
-                </div>
-
-                <div >
-                    <input name="email" type="email" required />
-                </div>
-
-                <div >
-                    <label for="password">Mot de passe :</label>
-                </div>
-
-                <div >
-                    <input name="password" type="password" required />
-                </div>
-
-                <div>
-                <a href="#" class="bouttonbleu">Connexion</a>
-                </div>
-
-                <div>
-                    Pas de compte ?
-                    <input class="mybouton" type="submit" value="Inscrivez-vous !" />
-                </div>
-
-            </form>
-        </div> -->
-    </div>
-
-</body>
-
-
-<script>
-
-function run(string $param) {
-    $.ajax({
-        url: '"./vues/'.$param.'.php" ' ;
-    })
-}
-
-
-</script>
-
-</html>
-
