@@ -131,7 +131,7 @@
      </div>
 
      &nbsp;
-     <script>
+     <script> //barre de recherche
          $(document).ready(function(e) {
              // Boucler tous les hyperliens de la liste « oCategorieListe »
              // Et capturer le l’événement « click »
