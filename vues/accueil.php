@@ -7,6 +7,7 @@
     <title>Page accueil</title>
 </head>
 <body>
+    
 <style>
          body {
              margin-top: 20px;
@@ -65,11 +66,8 @@
      </div>
 
      &nbsp;
-     <img src="https://img.icons8.com/external-bearicons-blue-bearicons/64/000000/external-rating-reputation-bearicons-blue-bearicons-1.png"/>
-     <img src="https://img.icons8.com/carbon-copy/100/4a90e2/speech-bubble.png"/>
-     <img src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/4a90e2/external-chat-user-interface-wanicon-lineal-wanicon.png"/>
-     <img src="https://img.icons8.com/external-glyph-vinzence-studio/64/4a90e2/external-communication-social-communication-glyph-vinzence-studio-16.png"/>
-     <h1><img src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/000000/external-chat-communication-xnimrodx-blue-xnimrodx.png"/><i class="fa-solid fa-comment" style="font-size:40px;color:lightblue;"></i> Sujets de discussion</h1> 
+     
+     <h1><img src="https://img.icons8.com/external-bearicons-blue-bearicons/64/000000/external-rating-reputation-bearicons-blue-bearicons-1.png"/></i> Sujets de discussion</h1> 
      &nbsp;
      &nbsp;
      <div class="container">
@@ -86,12 +84,8 @@
          </div>
          &nbsp;
 
-         <h1><i class="fa-solid fa-file-medical" style="font-size:40px;color:lightblue;"></i> Cas cliniques</h1>
-         <img src="https://img.icons8.com/external-konkapp-detailed-outline-konkapp/64/4a90e2/external-medical-report-medical-konkapp-detailed-outline-konkapp.png"/>
-         <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/4a90e2/external-medical-report-dental-kiranshastry-lineal-kiranshastry.png"/>
-         <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/4a90e2/external-tooth-dental-kiranshastry-lineal-kiranshastry-2.png"/>
-         <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-tooth-dental-kiranshastry-lineal-kiranshastry.png"/>
-         <img src="https://img.icons8.com/ios/50/4a90e2/speech-bubble--v1.png"/>
+         <h1><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/4a90e2/external-medical-report-dental-kiranshastry-lineal-kiranshastry.png"/></i> Cas cliniques</h1>
+         
          &nbsp;
 
          <div class="row row-cols-1 row-cols-md-3 g-4">
