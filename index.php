@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<!-- 
+
     <img style="height:100px;text-align:right; text-align:center;" src="assets/images/logoblue.png"> <br>
 
 
@@ -86,7 +86,7 @@
                     </form>
                 </div>
             </div>
-        </div> -->
+        </div> 
 
         <!-- <div class="Accueil">
          <div class="Formulaire" id="connexion">
@@ -124,41 +124,6 @@
         </div> -->
 
     </div>
-
-
-
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#00D1ED; height:115px;">
-        <div class="container-fluid">
-
-                <div class="flex-avatar">
-
-                <a href="/vues/profil.php"><img src="../../assets/images/avatar.png" style="height:70px;margin-right:40px;margin-left:20px;"></a>
-                <a href="/vues/accueil.php"><img src="../../assets/images/home.png" style="height:60px; margin:20px;"></a>
-                <a href="/vues/favori.php"><img src="../../assets/images/star.png" style="height:60px;margin:20px;"></a>
-                <a href="ton lien"><img src="../../assets/images/bell.ico" style="height:60px;margin:20px;"></a>
-
-                </div>
-
-            <div class="flex-logo">
-
-                <img src="../../assets/images/logoBlancComplet.png" style="height:100px;">
-
-            </div>
-
-            <div class="flex-add">
-
-                <a href="ton lien"> <img src="../../assets/images/boutonadd.png" style="height:60px; margin:20px"></a>
-
-            </div>
-
-
-        </div>
-
-    </nav>
-
-
-
-
 
 
 
