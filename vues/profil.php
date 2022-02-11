@@ -12,7 +12,7 @@
 
     <?php include './templates/header.php' ?>
 
-    <div class="profilcorps" >
+    <div class="profilcorps">
 
         <div class="contenant">
 
@@ -43,74 +43,74 @@
                 <div>
                     <input href="./index.php" class="modif_et_deco" type="button" value="Se deconnecter">
                 </div>
-
+                
             </div>
-
+            
         </div>
 
         <div id="fonctionprofile">
 
-            <div class="boutons_profile">
-                Publication
+            <div class="Publication">
+                <input href="./profil.php" class="function_button" type="button" value="Publication">
             </div>
 
-            <div class="boutons_profile">
-                Discusion
+            <div class="Discusion">
+                <input href="./profil.php" class="function_button" type="button" value="Discusion">
             </div>
-
+            
         </div>
-
-
+        
+        
+    </div>
 
         <div id="imagepublication">
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="imagepublication">
 
-    <div class="">
-        <div class="">
-            <div class="card-body">
+                <div class="">
+                    <div class="">
+                        <div class="card-body">
 
-                <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
+                            <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
 
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="">
+                    <div class="">
+                        <div class="card-body">
+
+                            <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
+
         </div>
-    </div>
-
-    <div class="">
-        <div class="">
-            <div class="card-body">
-
-                <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
-
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    
-</div>
-
-</div>
 
 
 
-    </div>
 
     </div>
 
