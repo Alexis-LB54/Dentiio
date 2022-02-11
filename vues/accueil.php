@@ -12,6 +12,8 @@
 
 </head>
 
+<?php include './templates/header.php' ?>
+
 <body>
 
     <style>
@@ -94,12 +96,13 @@
 
         </form>
     </div>
-
+<br>
 
     &nbsp;
-
+<br>
     <h1><img src="https://img.icons8.com/external-bearicons-blue-bearicons/64/000000/external-rating-reputation-bearicons-blue-bearicons-1.png" />&nbsp;</i> Sujets de discussion</h1>
     &nbsp;
+    <br>
     &nbsp;
     <div class="container">
         <div class="row">
