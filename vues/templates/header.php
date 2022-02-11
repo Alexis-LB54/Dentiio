@@ -8,10 +8,6 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     
 
-    <!--j'inclue le head-->
-    <?php include '../templates/head.php' ?>
-
-
 </head>
 
 <body>

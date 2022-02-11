@@ -2,10 +2,14 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page accueil</title>
+    <title>Page accueil</title> -->
+
+    <?php include './templates/head.php' ?>
+
+
 </head>
 
 <body>
@@ -75,7 +79,6 @@
                                 <pre> Traitement                      <a href="ton lien"><i style="color:#03B6F0" class="fa-solid fa-angle-right"></i></a></pre>
                                 <pre> Spécialité                      <a href="ton lien"><i style="color:#03B6F0" class="fa-solid fa-angle-right"></i></a></pre>
                                 <pre> Anatomie                        <a href="ton lien"><i style="color:#03B6F0" class="fa-solid fa-angle-right"></i></a></pre>
-
 
 
                             </div>

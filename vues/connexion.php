@@ -1,5 +1,5 @@
 
-        <div class="Formulaire" id="connexion">
+
             <form method="POST">
                 
                 <h1>Connexion</h1>
@@ -21,13 +21,13 @@
                 </div>
 
                 <div>
-                <a href="#" class="bouttonbleu">Connexion</a>
+                <a href="#" class="bouttonbleu">Se connecter</a>
                 </div>
 
                 <div>
                     Pas de compte ?
-                    <input class="mybouton" type="submit" value="Inscrivez-vous !" onclick="run('inscription')" />
+                    <input class="mybouton" type="submit" value="Inscrivez-vous !" onclick="run_inscription()" />
                 </div>
 
             </form>
-        </div>
+ 
