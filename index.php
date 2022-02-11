@@ -68,7 +68,7 @@
                 </div>
 
                     <div >
-                    <a href="#" class="bouttonbleu">S'inscrire</a>
+                    <a href="./vues/profil.php" class="bouttonbleu">S'inscrire</a>
                     </div>
 
                 <div>

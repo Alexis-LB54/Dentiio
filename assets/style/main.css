@@ -21,10 +21,6 @@
    width: 30%;
 }
 
-body{
-    text-align: center;
-}
-
 .mybouton {
     background-color:transparent;
     border-radius:28px;
@@ -81,3 +77,100 @@ h1{
     margin: 10px;
 }
 
+#headerprofil {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    gap: 2rem;
+    margin-left: 0%;
+}
+
+
+.profilIS {
+    display: flex;
+    gap: 7rem;
+    
+}
+
+.setting {
+    display: flex;
+    background-color: #00e1ff;
+    gap: 3rem;
+}
+
+
+.modification,
+.déconnexion {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:20px;
+	border:3px solid #505050;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #ffffff;
+    height: 40px
+    
+}
+
+
+
+.profilcorps {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#fonctionprofile {
+    
+    display: flex;
+    justify-content: center;
+    width: 1351px;
+    height: 96px;
+    left: 36px;
+    top: 376px;
+    background: #B0D0E2;
+
+}
+
+.publication,
+.discussion {
+
+display: flex;
+width: 333px;
+height: 50px;
+/* left: 745px;
+top: 397px; */
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
+#divprofil1,
+#divprofil2 {
+    width: 325px;
+}
+
+#imageprofil1,
+#imageprofil2 {
+    width: 325px;
+    height: 270px;
+}
+
+#textprofil1,
+#textprofil2 {
+    width: 325px;
+    height: 150px;
+}

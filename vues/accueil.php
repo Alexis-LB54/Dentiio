@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page accueil</title>
+    <title>Page accueil</title> -->
+
+    <?php include './templates/head.php' ?>
+
+
 </head>
 <body>
     
+    <?php include './templates/header.php' ?>
+
 <style>
          body {
              margin-top: 20px;
@@ -148,6 +154,12 @@
  </body>
  <!-- Bleu principal: #03B6F0
  Bleu secondaire: #BAE6FA -->
+
+<footer>
+
+         <?php include './templates/footer.php' ?>
+
+</footer>
 
  </html> 
 
