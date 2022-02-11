@@ -27,10 +27,10 @@
 
             <div class="flex-avatar">
 
-                <a href="/vues/profil.php"><img src="../../assets/images/avatar.png" style="height:70px;margin-right:40px;margin-left:20px;"></a>
-                <a href="/vues/accueil.php"><img src="../../assets/images/home.png" style="height:60px; margin:20px;"></a>
-                <a href="/vues/favori.php"><img src="../../assets/images/star.png" style="height:60px;margin:20px;"></a>
-                <a class="btn mt-1" data-toggle="modal" data-target="#modal" href="ton lien"><img src="../../assets/images/bell.ico" style="height:60px;margin:20px;"></a>
+                <a href="/vues/profil.php" title="Profil"><img src="../../assets/images/avatar.png" style="height:70px;margin-right:40px;margin-left:20px;"></a>
+                <a href="/vues/accueil.php" title="Accueil"><img src="../../assets/images/home.png" style="height:60px; margin:20px;"></a>
+                <a href="/vues/favori.php" title="Favori"><img src="../../assets/images/star.png" style="height:60px;margin:20px;"></a>
+                <a class="btn mt-1" data-toggle="modal" data-target="#modal" href="ton lien"title="Notification" ><img src="../../assets/images/bell.ico" style="height:60px;margin:20px;"></a>
 
                 <!-- Le modal -->
 
