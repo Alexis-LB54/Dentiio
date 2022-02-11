@@ -25,6 +25,7 @@
             </div>
         </div>
 
+
          <div>
             <div class="Accueil">
                 <div class="Formulaire" id="Inscription">
@@ -87,6 +88,7 @@
 
         <!-- <div class="Accueil">
          <div class="Formulaire" id="connexion">
+
             <form method="POST">
                 
                 <h1>Connexion</h1>
@@ -121,8 +123,10 @@
 
     </div>
 
-</body>
+
+</body> 
 
 <?php include './vues/templates/footer.php' ?>
 
 </html>
+
