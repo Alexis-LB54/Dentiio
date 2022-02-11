@@ -171,7 +171,7 @@
 
 
     <script>
-        //barre de recherche
+        //barre de recherche ne fonctionne pas
         $(document).ready(function(e) {
             // Boucler tous les hyperliens de la liste « oCategorieListe »
             // Et capturer le l’événement « click »
