@@ -43,71 +43,89 @@
                 <div>
                     <input href="./index.php" class="modif_et_deco" type="button" value="Se deconnecter">
                 </div>
-                
+
             </div>
-            
+
         </div>
 
         <div id="fonctionprofile">
 
-            <div class="Publication">
+            <div>
                 <input href="./profil.php" class="function_button" type="button" value="Publication">
             </div>
 
-            <div class="Discusion">
-                <input href="./profil.php" class="function_button" type="button" value="Discusion">
+            <div>
+                <!-- Button trigger modal -->
+                <input class="function_button" type="button" value="Discusion" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Messagerie</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/assets/images/discussion.png" alt="" width="1100" height="700">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
         </div>
-        
-        
+
+
     </div>
 
-        <div id="imagepublication">
+    <div id="imagepublication">
 
-            <div class="imagepublication">
+        <div class="imagepublication">
 
+            <div class="">
                 <div class="">
-                    <div class="">
+                    <div class="card-body">
+
+                        <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
+
                         <div class="card-body">
-
-                            <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+
                     </div>
                 </div>
+            </div>
 
+            <div class="">
                 <div class="">
-                    <div class="">
+                    <div class="card-body">
+
+                        <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
+
                         <div class="card-body">
-
-                            <img id="imageprofil1" src="/assets/images/dent12.png" class="card-img-top" alt="...">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text" id="textprofil1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+
                     </div>
                 </div>
-
             </div>
 
         </div>
+
+    </div>
 
 
 
