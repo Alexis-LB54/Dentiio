@@ -38,9 +38,11 @@
                             <label for="title">Pseudo :</label>
                         </div>
 
+
                         <div>
                             <input name="title" type="text" required />
                         </div>
+
 
                         <div>
                             <label for="email"> Email :</label>
