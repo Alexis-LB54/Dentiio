@@ -234,7 +234,6 @@ color: #FFFFFF;
     width: 325px;
     height: 150px;
 }
-
 .agentdiscussion {
     display: flex;
     flex-direction: row;
@@ -249,3 +248,4 @@ color: #FFFFFF;
 .infopatient {
     padding-top: 5%;
 }
+
