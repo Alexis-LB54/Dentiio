@@ -22,6 +22,15 @@
 
 }
 
+.image{
+    height:40px;
+    border-radius:50%;
+}
+
+.popover{
+    max-width: 900px;
+  }
+
 .mybouton {
     background-color:transparent;
     border-radius:28px;
