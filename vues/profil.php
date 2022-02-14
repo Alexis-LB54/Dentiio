@@ -37,11 +37,12 @@
             <div class="setting">
 
                 <div>
-                    <input href="./profil.php" class="modif_et_deco" type="button" value="Modifier vos informations">
+                    <button class="modif_et_deco" href="./profil.php" type="button">Modifier vos informations</button>
                 </div>
 
                 <div>
-                    <input href="./index.php" class="modif_et_deco" type="button" value="Se deconnecter">
+                    <button onclick="window.location.href='../index.php'" class="modif_et_deco" href="../index.php" type="button">Se déconnecter</button>
+                    
                 </div>
 
             </div>
@@ -67,7 +68,7 @@
                             </div>
                             <div class="modal-body">
                                 <!-- <img src="/assets/images/discussion.png" alt="" width="1100" height="700"> -->
-                                <?php include './favori.php' ?>
+                                <?php include './discussion.php' ?>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -144,7 +145,7 @@
 </body>
 
 <footer>
-<?php include './templates/footer.php' ?>
+    <?php include './templates/footer.php' ?>
 
 </footer>
 
