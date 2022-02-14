@@ -174,7 +174,7 @@
     </div>
 
     &nbsp;
-
+    <?php include './templates/footer.php' ?>
 
     <script>
         //barre de recherche ne fonctionne pas
