@@ -21,7 +21,7 @@
                 </div>
 
                 <div>
-                <a href="#" class="bouttonbleu">Se connecter</a>
+                <a href="/vues/accueil.php" class="bouttonbleu">Se connecter</a>
                 </div>
 
                 <div>

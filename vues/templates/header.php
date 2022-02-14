@@ -25,12 +25,22 @@
 
             <div class="flex-avatar">
 
-                <a href="/vues/profil.php"><img src="../../assets/images/avatar.png" style="height:70px;margin-right:40px;margin-left:20px;"></a>
-                <a href="/vues/accueil.php"><img src="../../assets/images/home.png" style="height:60px; margin:20px;"></a>
-                <a href="/vues/favori.php"><img src="../../assets/images/star.png" style="height:60px;margin:20px;"></a>
-                <!-- ci dessous le bouton pop over pour les discussions -->
-                <button type='button' class='btn' data-bs-container="body" data-bs-toggle='popover' data-html="true" data-bs-placement="bottom" data-bs-content="<img  src='/assets/images/dent2.jpg' alt='...' class='rounded-circle image'> &nbsp; Amélie 
-                                <pre>      a laissé un commentaire <img id='img3' src='/assets/images/dent10.jpg' class='border border-info' title='dent coeur' alt='image dent'></pre>
+                <a href="/vues/profil.php" title="Profil"><img src="../../assets/images/avatar.png" style="height:70px;margin-right:40px;margin-left:20px;"></a>
+                <a href="/vues/accueil.php" title="Accueil"><img src="../../assets/images/home.png" style="height:60px; margin:20px;"></a>
+                <a href="/vues/favori.php" title="Favori"><img src="../../assets/images/star.png" style="height:60px;margin:20px;"></a>
+                <a class="btn mt-1" data-toggle="modal" data-target="#modal" href="ton lien"title="Notification" ><img src="../../assets/images/bell.ico" style="height:60px;margin:20px;"></a>
+
+                <!-- Le modal -->
+
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal">
+
+                            </div>
+                            <div class="modal-body">
+                                <img  src="/assets/images/dent2.jpg" style="height:40px;" alt="..." class="rounded-circle"> &nbsp; Amélie
+                                <pre>      a laissé un commentaire  <img id="img3" src="/assets/images/dent10.jpg" class="border border-info" title="dent coeur" alt="image dent"></pre>
                                 <hr>
                                 <img  src='/assets/images/dent2.jpg' alt='...' class='rounded-circle image'> &nbsp; Alexis 
                                 <pre>      a commenté votre cas  <img id='img3' src='/assets/images/dent10.jpg' class='border border-info' title='dent coeur' alt='image dent'></pre>
