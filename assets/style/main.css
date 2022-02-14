@@ -234,3 +234,18 @@ color: #FFFFFF;
     width: 325px;
     height: 150px;
 }
+
+.agentdiscussion {
+    display: flex;
+    flex-direction: row;
+}
+
+.agentinfodiscussion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.infopatient {
+    padding-top: 5%;
+}

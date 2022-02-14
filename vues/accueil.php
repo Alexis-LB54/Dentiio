@@ -2,10 +2,7 @@
 <html lang="fr">
 
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page accueil</title> -->
+
 
     <?php include './templates/head.php' ?>
 
@@ -96,10 +93,10 @@
 
         </form>
     </div>
-<br>
+    <br>
 
     &nbsp;
-<br>
+    <br>
     <h1><img src="https://img.icons8.com/external-bearicons-blue-bearicons/64/000000/external-rating-reputation-bearicons-blue-bearicons-1.png" />&nbsp;</i> Sujets de discussion</h1>
     &nbsp;
     <br>

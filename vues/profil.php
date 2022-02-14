@@ -42,7 +42,7 @@
 
                 <div>
                     <button onclick="window.location.href='../index.php'" class="modif_et_deco" href="../index.php" type="button">Se déconnecter</button>
-                    
+
                 </div>
 
             </div>
@@ -52,22 +52,40 @@
         <div id="fonctionprofile">
 
             <div>
-                <input href="./profil.php" class="function_button" type="button" value="Publication">
+                <!-- Button trigger modal -->
+                <input class="function_button" type="button" value="Publication" data-bs-toggle="modal" data-bs-target="#Publication">
+                <!-- Modal -->
+                <div class="modal fade" id="Publication" tabindex="-1" aria-labelledby="PublicationLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="PublicationLabel">Vidéo</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div>Compte rendu de la mission des Totally Spies contre le Dr Max Molaire, Dentiste Criminel :</div>
+                                <iframe width="1120" height="630" src="https://www.youtube.com/embed/FagaoAvlvQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div>
                 <!-- Button trigger modal -->
-                <input class="function_button" type="button" value="Discussion" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <input class="function_button" type="button" value="Discussion" data-bs-toggle="modal" data-bs-target="#Discussion">
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="Discussion" tabindex="-1" aria-labelledby="DiscussionLabel" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Messagerie</h5>
+                                <h5 class="modal-title" id="DiscussionLabel">Messagerie</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <!-- <img src="/assets/images/discussion.png" alt="" width="1100" height="700"> -->
                                 <?php include './discussion.php' ?>
                             </div>
                             <div class="modal-footer">
