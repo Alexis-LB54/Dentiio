@@ -8,9 +8,9 @@
 </head>
 
 <body>
+
     <div class="groupdiscussion d-flex flex-row bd-highlight mb-3 gap-2">
 
-        <!-- ma box */ -->
         <div class="groupchat" style="width:50%;">
 
             <div style="display:flex; flex-direction:column;">
@@ -49,11 +49,9 @@
                     </div>
                 </div>
 
-
             </div>
 
             <div style="display:flex; flex-direction:column;">
-
                 <div style="display:flex; flex-direction:row; align-items:center; ">
 
                     <div>
@@ -110,9 +108,10 @@
 
                             <div style="background-color: #eae4e9; border-radius:30px; height:45px;font-size:small;padding-right: 10px; padding-left:10px;">
                                 <div>
-                                    <p><br>Non, Clover :( .</p>
+                                    <p><br>Non, Clover :( </p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
@@ -120,7 +119,7 @@
 
             </div>
 
-            <div style="display:flex; height: 210px"></div>
+            <div style="display:flex; height: 355px"></div>
 
             <div style="display:flex; flex-direction:row; background-color: #d7fef2; align-items:flex-end; height:50px; border-radius:3px; ">
 
@@ -130,9 +129,9 @@
 
                 <div class="col">
 
-                    <div></div>
+                    <!-- <div style="display:flex; height: 655px;"></div> -->
 
-                    <div style="display:flex; flex-direction: row; justify-content:flex-end; align-items:end;" >
+                    <div style="display:flex; flex-direction: row; justify-content:flex-end; align-items:end;">
 
                         <div style="display:flex; flex-direction: row; justify-content:flex-end;">
                             <div style="margin-top:10px ; margin-bottom:10px">
@@ -151,49 +150,70 @@
 
                         </div>
                     </div>
-                    
+
                 </div>
 
-            </div>
 
-        </div>
+            </DIV>
+        </DIV>
 
 
-        <!-- ALEXIS PAS TOUCHER -->
-        <div class="d-grid gap-3" style="background-color:#00D1ED; width:50%">
+
+        <!-- ALEXIS -->
+        <div class="d-grid gap-3" style="width:50%">
 
             <div>
                 <div class="photopatient">
-                    <img src="/assets/images/dent4.jpg" style="width:549px" alt="">
+                    <img src="/assets/images/dent3.jpg" style="width:549px" alt="">
                 </div>
             </div>
 
             <div>
-                <div class="infopatient">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th><img src="/assets/images/ppdiscussion.jpg" alt="" height="60" width="60"> </th>
-                                <th><img src="/assets/images/alcool.jpg" alt="" height="60" width="60"> </th>
-                                <th><img src="/assets/images/medicament.png" alt="" height="60" width="60"> </th>
-                                <th><img src="/assets/images/santé.png" alt="" height="60" width="60"> </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>25 ans. Très sympa</td>
-                                <td>Un verre svp ! Merci !!</td>
-                                <td>Majeur et vacciné</td>
-                                <td>Santé ? Très bonne merci !</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div>
+                    <div>
+                        <h4 style="text-align: center;">Information sur l'agent :</h4>
+                        <div class="agentdiscussion">
+                            <img src="/assets/images/pp1.png" alt="" height="60px" width="60px" style="border-radius:50%;">
+
+                            <div class="agentinfodiscussion">
+                                <div>Sam</div>
+                                <div>Totally Spies au WHOOP</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infopatient">
+                        <h4 style="text-align: center;">Historique du patient :</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th><img src="/assets/images/ppdiscussion.jpg" alt="" height="60px" width="60px"> </th>
+                                    <th><img src="/assets/images/alcool.jpg" alt="" height="60px" width="60px"> </th>
+                                    <th><img src="/assets/images/medicament.png" alt="" height="60px" width="60px"> </th>
+                                    <th><img src="/assets/images/santé.png" alt="" height="60px" width="60px"> </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>25 ans. Très sympa</td>
+                                    <td>Un verre svp ! Merci !!</td>
+                                    <td>Majeur et vacciné</td>
+                                    <td>Santé ? Très bonne merci !</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h5 class="infopatient">
+                        Question : Quelle sera la prochaine mission de Sam, Alex et Clover pour sauver le monde du maléfique Docteur Max Molaire !?
+                    </h5>
                 </div>
+
             </div>
 
         </div>
 
     </div>
+
+
 </body>
 
 </html>
