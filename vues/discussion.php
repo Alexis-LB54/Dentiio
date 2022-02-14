@@ -10,10 +10,7 @@
 <body>
 
     <div class="groupdiscussion d-flex flex-row bd-highlight mb-3 gap-2">
-        <div class="groupchat" style="width:50%">
-            <p>1
-            <p>
-        </div>
+
 
         <div class="d-grid gap-3" style="width:50%">
 
