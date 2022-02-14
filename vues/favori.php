@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  <?php include './templates/head.php' ?>
 
 </head>
+
 <?php include './templates/header.php' ?>
 
 <body>
@@ -51,7 +53,7 @@
   <br>
   <br>
   <br>
-  <div class="d-flex justify-content-evenly d-flex justify-content-around ">
+  <div class="d-flex justify-content-evenly d-flex justify-content-center ">
 
     <div class="card border border-info" style="width: 20rem;">
       <img id="taille" src="/assets/images/dent beurk.png" class="card-img-top" alt="...">
