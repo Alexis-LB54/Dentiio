@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  <?php include './templates/head.php' ?>
 
 </head>
+
+<?php include './templates/header.php' ?>
 
 <body>
 
@@ -27,9 +30,6 @@
       text-align: center;
     }
 
-    .container {
-      display: block;
-    }
 
     #img2 {
       height: 35px;
@@ -39,6 +39,9 @@
       height: 335px;
     }
   </style>
+
+
+
   <br>
   <br>
   <br>
@@ -48,8 +51,10 @@
   <br>
   &nbsp;
   <br>
+  <br>
+  <br>
+  <div class="d-flex justify-content-evenly d-flex justify-content-center ">
 
-  <div class="d-flex justify-content-evenly">
     <div class="card border border-info" style="width: 20rem;">
       <img id="taille" src="/assets/images/dent beurk.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -62,9 +67,9 @@
         <img id="img2" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/4a90e2/external-tooth-dental-kiranshastry-lineal-kiranshastry-2.png" />
         <img id="img2" src="https://img.icons8.com/ios/50/4a90e2/speech-bubble--v1.png" />
       </div>
-    </div>
+    </div> &nbsp;
 
-    <div class="card border border-info" style="width: 18rem;">
+    <div class="card border border-info" style="width: 20rem;">
       <img id="taille" src="/assets/images/dent selfie.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -78,12 +83,12 @@
       </div>
     </div>
   </div>
-  </div>
+
 
   &nbsp;
 
 
 
 </body>
-
+<?php include './templates/footer.php' ?>
 </html>

@@ -2,11 +2,14 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page accueil</title>
+
+
+    <?php include './templates/head.php' ?>
+
+
 </head>
+
+<?php include './templates/header.php' ?>
 
 <body>
 
@@ -77,7 +80,6 @@
                                 <pre> Anatomie                        <a href="ton lien"><i style="color:#03B6F0" class="fa-solid fa-angle-right"></i></a></pre>
 
 
-
                             </div>
 
                         </div>
@@ -91,12 +93,13 @@
 
         </form>
     </div>
-
+    <br>
 
     &nbsp;
-
+    <br>
     <h1><img src="https://img.icons8.com/external-bearicons-blue-bearicons/64/000000/external-rating-reputation-bearicons-blue-bearicons-1.png" />&nbsp;</i> Sujets de discussion</h1>
     &nbsp;
+    <br>
     &nbsp;
     <div class="container">
         <div class="row">
@@ -168,10 +171,10 @@
     </div>
 
     &nbsp;
-
+    <?php include './templates/footer.php' ?>
 
     <script>
-        //barre de recherche
+        //barre de recherche ne fonctionne pas
         $(document).ready(function(e) {
             // Boucler tous les hyperliens de la liste « oCategorieListe »
             // Et capturer le l’événement « click »

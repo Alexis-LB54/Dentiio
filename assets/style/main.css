@@ -17,8 +17,19 @@
    margin-top: 10%;
    padding: 40px; 
    border-radius: 30px 30px 30px 30px;
+   /* width: 30%; */
    width: 150%;
+
 }
+
+.image{
+    height:40px;
+    border-radius:50%;
+}
+
+.popover{
+    max-width: 900px;
+  }
 
 .mybouton {
     background-color:transparent;
@@ -68,5 +79,173 @@ input{
 
 h1{
     margin: 10px;
+}
+
+#headerprofil {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    gap: 2rem;
+    margin-left: 0%;
+    width: 100%;
+    border: 2px solid orange;
+}
+
+#header2{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    gap: 2rem;
+    margin-left: 0%;
+    width: 100%;
+}
+
+
+.profilIS {
+    display: flex;
+    gap: 7rem;
+}
+
+.image_profil{
+    border-radius: 50%;
+}
+
+.setting {
+    display: flex;
+    gap: 3rem;
+    margin-bottom:50px;
+    margin-left: 25%;
+}
+
+
+.modif_et_deco {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:40px;
+	border:1,5px solid #505050;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #ffffff;
+    height: 60px;
+    width:300px;    
+}
+
+#fonctionprofile {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 96px;
+    gap: 5rem;
+    background: #B0D0E2;
+
+}
+
+.function_button {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#02c3dd;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:20px 76px;
+    margin-top: 5%;
+	text-decoration:none;
+}
+
+#imagepublication {
+    display: flex;
+    flex: start;
+    margin-top: 3%;
+    padding-left: 10rem;
+}
+
+.imagepublication {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 3%; */
+}
+
+.profilcorps {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* border:solid 6px red; */
+    width: 100%;
+    align-items: center;
+    margin-top:50px;
+}
+
+.contenant{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    /* border:solid 6px green; */
+    align-items: center;
+    justify-content: flex-start;
+    gap:2rem;
+}
+
+.job {
+    color:#505050;
+    font-size: 30px;
+}
+
+
+.boutons_profile{
+
+display: flex;
+width: 333px;
+height: 50px;
+/* left: 745px;
+top: 397px; */
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
+#divprofil1,
+#divprofil2 {
+    width: 325px;
+}
+
+#imageprofil1,
+#imageprofil2 {
+    width: 325px;
+    height: 270px;
+}
+
+#textprofil1,
+#textprofil2 {
+    width: 325px;
+    height: 150px;
+}
+.agentdiscussion {
+    display: flex;
+    flex-direction: row;
+}
+
+.agentinfodiscussion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.infopatient {
+    padding-top: 5%;
 }
 

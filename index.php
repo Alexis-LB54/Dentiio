@@ -38,9 +38,11 @@
                             <label for="title">Pseudo :</label>
                         </div>
 
+
                         <div>
                             <input name="title" type="text" required />
                         </div>
+
 
                         <div>
                             <label for="email"> Email :</label>
@@ -74,7 +76,7 @@
                         </div>
 
                         <div>
-                            <a href="#" type="submit" class="bouttonbleu">S'inscrire</a>
+                            <a href="" type="submit" class="bouttonbleu">S'inscrire</a>
                         </div>
 
                         <div>
@@ -84,7 +86,7 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <!-- <div class="Accueil">
          <div class="Formulaire" id="connexion">
@@ -122,6 +124,15 @@
         </div> -->
 
     </div>
+
+
+
+
+
+
+
+
+
 
 
 </body> 
