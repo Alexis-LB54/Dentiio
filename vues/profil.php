@@ -56,7 +56,7 @@
                 <input class="function_button" type="button" value="Publication" data-bs-toggle="modal" data-bs-target="#Publication">
                 <!-- Modal -->
                 <div class="modal fade" id="Publication" tabindex="-1" aria-labelledby="PublicationLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="PublicationLabel">Vidéo</h5>
@@ -64,7 +64,7 @@
                             </div>
                             <div class="modal-body">
                                 <div>Compte rendu de la mission des Totally Spies contre le Dr Max Molaire, Dentiste Criminel :</div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/FagaoAvlvQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="1120" height="630" src="https://www.youtube.com/embed/FagaoAvlvQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

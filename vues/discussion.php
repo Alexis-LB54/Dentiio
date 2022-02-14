@@ -19,7 +19,7 @@
 
             <div>
                 <div class="photopatient">
-                    <img src="/assets/images/dent4.jpg" style="width:549px" alt="">
+                    <img src="/assets/images/dent3.jpg" style="width:549px" alt="">
                 </div>
             </div>
 
