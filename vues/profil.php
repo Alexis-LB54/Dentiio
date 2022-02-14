@@ -56,7 +56,7 @@
 
             <div>
                 <!-- Button trigger modal -->
-                <input class="function_button" type="button" value="Discusion" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <input class="function_button" type="button" value="Discussion" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
@@ -66,7 +66,8 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <img src="/assets/images/discussion.png" alt="" width="1100" height="700">
+                                <!-- <img src="/assets/images/discussion.png" alt="" width="1100" height="700"> -->
+                                <?php include './favori.php' ?>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
