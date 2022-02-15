@@ -49,6 +49,7 @@
 
         </div>
 
+
         <div id="fonctionprofile">
 
             <div>
@@ -98,8 +99,8 @@
 
         </div>
 
-
     </div>
+
 
     <div id="imagepublication">
 
