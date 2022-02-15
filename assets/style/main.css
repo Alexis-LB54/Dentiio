@@ -183,6 +183,11 @@ h1{
     margin-top:50px;
 }
 
+
+.btn{
+    margin:0; padding:0;
+}
+
 .contenant{
     display:flex;
     flex-direction: row;
@@ -249,3 +254,75 @@ color: #FFFFFF;
     padding-top: 5%;
 }
 
+
+
+
+
+.imgnav {
+
+    height:40px;
+    margin-left:15px
+}
+
+.navphoto{
+    height:60px;
+}
+
+.flex-logo{
+    display:block;
+}
+
+.flex-logo2 {
+    display: none;
+}
+
+.flex-add {
+    display: block;
+}
+
+.flex-add {
+    display: block;
+}
+
+.flex-add2 {
+    display: none;
+}
+
+
+
+
+/* POUR VERSION MOBILE */
+
+@media (max-width: 740px) { 
+
+.flex-logo {
+    display: none;
+}
+
+.flex-logo2 {
+    display: block;
+}
+
+.flex-add {
+    display: none;
+}
+
+.flex-add2 {
+    display: block;
+}
+
+footer{
+    display:none
+}
+
+.flex-avatar img{
+
+    height:40px;
+    margin-left:5px
+}
+
+.imgnav {
+    height: 35px;
+}
+
+  }
