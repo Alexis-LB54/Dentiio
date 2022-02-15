@@ -183,6 +183,11 @@ h1{
     margin-top:50px;
 }
 
+
+.btn{
+    margin:0; padding:0;
+}
+
 .contenant{
     display:flex;
     flex-direction: row;
@@ -249,3 +254,133 @@ color: #FFFFFF;
     padding-top: 5%;
 }
 
+.imgnav {
+
+    height:40px;
+    margin-left:15px
+}
+
+.navphoto{
+    height:60px;
+}
+
+.flex-logo{
+    display:block;
+}
+
+.flex-logo2 {
+    display: none;
+}
+
+.flex-add {
+    display: block;
+}
+
+.flex-add {
+    display: block;
+}
+
+.flex-add2 {
+    display: none;
+}
+
+
+
+
+/* POUR VERSION MOBILE */
+
+@media (max-width: 740px) { 
+
+.flex-logo {
+    display: none;
+}
+
+.flex-logo2 {
+    display: block;
+}
+
+.flex-add {
+    display: none;
+}
+
+.flex-add2 {
+    display: block;
+}
+
+footer{
+    display:none
+}
+
+.flex-avatar img{
+
+    height:40px;
+    margin-left:5px
+}
+
+.imgnav {
+    height: 35px;
+}
+
+    /* Rédigez vos propriétés CSS ici */
+    .profilcorps {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        /* border:solid 6px red; */
+        width: 100%;
+        align-items: center;
+        margin-top:50px;
+    }
+
+    .setting {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom:50px;
+        margin-left: 10%;
+    }
+
+    
+    #fonctionprofile {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 90%;
+        height: 96px;
+        gap: 2rem;
+        background: #ffffff;
+    
+    }
+    
+    .function_button {
+        background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+        background-color:#ffffff;
+        display:inline-block;
+        cursor:pointer;
+        color:#02c3dd;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:5px 19px;
+        text-decoration:none;
+    }
+
+    #imagepublication {
+        display: flex;
+        flex: start;
+        justify-content: center;
+    }
+
+    .imagepublication {
+        display: flex;
+        flex-direction: column;
+        padding-left: 11rem;
+    }
+
+    #imageprofil1,
+    #imageprofil2 {
+        width: 480px;
+        height: 405px;
+    }
+
+}

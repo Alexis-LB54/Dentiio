@@ -20,14 +20,14 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#00D1ED; height:115px;">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#00D1ED; height: 80px;" id="header">
         <div class="container-fluid">
 
             <div class="flex-avatar">
 
-                <a href="/vues/profil.php"><img src="../../assets/images/avatar.png" style="height:70px;margin-right:40px;margin-left:20px;"></a>
-                <a href="/vues/accueil.php"><img src="../../assets/images/home.png" style="height:60px; margin:20px;"></a>
-                <a href="/vues/favori.php"><img src="../../assets/images/star.png" style="height:60px;margin:20px;"></a>
+                <a href="/vues/profil.php"><img src="../../assets/images/avatar.png" style="margin-right:10px;" class="navphoto"></a>
+                <a href="/vues/accueil.php"><img src="../../assets/images/home.png" class="imgnav"></a>
+                <a href="/vues/favori.php"><img src="../../assets/images/star.png" class="imgnav"></a>
                 <!-- ci dessous le bouton pop over pour les discussions -->
                 <button type='button' class='btn' data-bs-container="body" data-bs-toggle='popover' data-html="true" data-bs-placement="bottom" data-bs-content="<img  src='/assets/images/dent2.jpg' alt='...' class='rounded-circle image'> &nbsp; Amélie 
                                 <pre>      a laissé un commentaire <img id='img3' src='/assets/images/dent10.jpg' class='border border-info' title='dent coeur' alt='image dent'></pre>
@@ -39,18 +39,32 @@
                                 <pre>      à participé à votre discussion <img id='img3' src='/assets/images/dent10.jpg' class='border border-info' title='dent coeur' alt='image dent'></pre>
                                 <hr>">
 
-                    <div class="bell-body"><img src="../../assets/images/bell.ico" style="height:60px;margin:20px;"></div>
+                    <div ><img class="imgnav"  src="../../assets/images/bell.ico"></div>
                 </button>
 
             </div>
 
-            <div class="flex-logo">
-                <img src="../../assets/images/logoBlancComplet.png" style="height:100px;">
+            <div class="flex-logo">  <!--logo central version web*/-->
+                <img src="../../assets/images/logoBlancComplet.png" style="height:50px;">
             </div>
 
-            <div class="flex-add">
-                <a href="ton lien"> <img src="../../assets/images/boutonadd.png" style="height:60px; margin:20px"></a>
+            <div class="flex-logo2">  <!--logo central version web*/-->
+                <img src="https://cdn.discordapp.com/attachments/905730535308021821/943082595875442709/logo192.png" style="height:40px;">
             </div>
+
+            <div class="flex-add2">   <!-- bouton ajouter favoris version mobile-->
+                <img src="https://cdn-icons-png.flaticon.com/512/189/189689.png" style="height:60px">
+            </div>
+
+            <div class="flex-add"> <!-- bouton fav version web-->
+                <a href="ton lien"> <img src="http://dentiio.local/assets/images/boutonadd.png" style="height:40px; margin-left:10px"></a>
+            </div>
+
+            <div class="flex-add2" style="display:none ; background-color:red;">
+                <a href="ton lien"> <img src="https://cdn.discordapp.com/attachments/905730535308021821/943082595875442709/logo192.png" style="height:60px; margin:20px;"></a>
+            </div>
+
+
 
         </div>
     </nav>
