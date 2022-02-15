@@ -291,6 +291,7 @@ color: #FFFFFF;
 
 @media (max-width: 740px) { 
 
+
 .flex-logo {
     display: none;
 }
@@ -321,6 +322,10 @@ footer{
     height: 35px;
 }
 
+
+.comp{
+    width:50%;
+}
     /* Rédigez vos propriétés CSS ici */
     .profilcorps {
         display: flex;
